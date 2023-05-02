@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>남이 만든 jQuery캐러셀 사용하기</title>
     <!-- slick -->
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   </head>
   <body>
     <h1>그냥 갖다 쓰는 방법!</h1>
@@ -23,13 +19,13 @@
     <!-- 1.slick HTML layout -->
     <div class="your-class">
       <div>
-        <img src="https://picsum.photos/id/1000/1200/300" alt="picsum photos" />
+        <img src="https://picsum.photos/id/1000/1200/300" alt="picsum photos">
       </div>
       <div>
-        <img src="https://picsum.photos/id/1001/1200/300" alt="picsum photos" />
+        <img src="https://picsum.photos/id/1001/1200/300" alt="picsum photos">
       </div>
       <div>
-        <img src="https://picsum.photos/id/1002/1200/300" alt="picsum photos" />
+        <img src="https://picsum.photos/id/1002/1200/300" alt="picsum photos">
       </div>
     </div>
     <script
@@ -41,17 +37,14 @@
       src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
     ></script>
     <!-- 배포용 <script type="text/javascript" src="slick/slick.min.js"></script> -->
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script>
       $(document).ready(function () {
         $(".your-class").slick({
-          accessibility: true,
-          autoplay: true,
-          fade: true,
-          speed: 1000,
+            accessibility: true,
+            autoplay: true,
+            fade: true,
+            speed: 1000
         });
       });
     </script>
